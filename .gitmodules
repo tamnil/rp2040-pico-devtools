@@ -1,0 +1,6 @@
+[submodule "openocd"]
+	path = openocd
+	url = https://github.com/raspberrypi/openocd.git
+[submodule "picoprobe"]
+	path = picoprobe
+	url = https://github.com/raspberrypi/picoprobe.git
