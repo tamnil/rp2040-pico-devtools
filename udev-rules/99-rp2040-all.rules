@@ -1,0 +1,7 @@
+## picoprobe
+ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="0004", MODE="660", GROUP="plugdev", TAG+="uaccess"
+## rp2040 boot mode
+ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="0003", MODE="660", GROUP="plugdev", TAG+="uaccess"
+## Mircopython
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2e8a", ATTRS{idProduct}=="0005", GROUP="plugdev", TAG+="uaccess"
+
